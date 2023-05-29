@@ -1,0 +1,9 @@
+.shop-collection-block-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-collection-block-product {
+  flex: 1;
+}

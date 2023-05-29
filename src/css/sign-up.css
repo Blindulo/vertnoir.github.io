@@ -1,0 +1,46 @@
+.signUp {
+  width: 30vh;
+  height: 20vh;
+  text-align: left;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 8px;
+}
+
+.input-container {
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.input-container input {
+  padding-right: 100px;
+}
+
+input {
+  border-color: rgb(77, 77, 77);
+  border-style: none none solid none;
+}
+input:focus {
+  border-color: rgb(0, 0, 0);
+  outline: none;
+}
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  position: absolute;
+  right: 0px;
+}
+span {
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.decent {
+  height: 100vh;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.decent-panel {
+  flex-basis: calc(100% / 3);
+  height: 100%;
+}
+
+.decent-panel video {
+  height: 100vh;
+}

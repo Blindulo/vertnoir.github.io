@@ -1,0 +1,27 @@
+table {
+  display: inline-table;
+  margin: 50px;
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: bold;
+  table-layout: fixed;
+  width: 900px;
+
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+tr {
+  display: table-row;
+  max-height: 20px;
+}
+td {
+  font-size: 10px;
+  padding-top: 10px;
+  vertical-align: bottom;
+  text-align: left;
+  width: auto;
+  height: 20px;
+}

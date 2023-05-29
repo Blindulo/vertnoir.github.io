@@ -1,0 +1,20 @@
+.luxury-container {
+  height: 200vh;
+  width: 100%;
+  display: flex; /* 使用 Flexbox 布局 */
+  flex-direction: row; /* 水平排列 */
+  justify-content: space-between; /* 左、右两端对齐 */
+}
+
+.luxury-left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100vw / 3);
+  height: 200vh;
+}
+
+.luxury-right {
+  flex-basis: calc(100vw * 2 / 3); /* 宽度为屏幕宽度的 2/3 */
+  height: 100%;
+  background-color: red;
+}

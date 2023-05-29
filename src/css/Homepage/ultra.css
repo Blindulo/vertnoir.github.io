@@ -1,0 +1,18 @@
+.ultra {
+  height: 100vh;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ultra-panel {
+  flex-basis: calc(100% / 3);
+  height: 100%;
+}
+
+.ultra-panel video {
+  height: 100vh;
+}

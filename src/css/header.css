@@ -1,0 +1,41 @@
+.header {
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  z-index: 100;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    rgb(4, 48, 84),
+    rgba(255, 255, 255, 0)
+  );
+  padding-bottom: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+
+li a:hover {
+  /* font-weight: bold; */
+}

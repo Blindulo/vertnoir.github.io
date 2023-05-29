@@ -1,0 +1,28 @@
+.introduction-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.introduction-small-image {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  object-fit: cover;
+}
+
+.introduction-text {
+  font-size: 11;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.introduction-button {
+  margin: 0 auto;
+  padding: 30px;
+}
